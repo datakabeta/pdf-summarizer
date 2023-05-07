@@ -1,0 +1,1116 @@
+
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/1/23
+Posts
+Discussion
+Are PhDs really required to work in an AI lab?
+I have a French engineering degree (equivalent to an MSc), majored in datascience and robotics, and
+an other masters in applied math on top of it and I am really struggling to find work in an AI lab. I've
+been working as a datascience consultant for a year now in one of the biggest/best datascience
+consulting outfits in Paris, thinking wrongly that the technical/theoretical level would be higher than it
+is. I am doing really basic regressions in R and pumping out powerpoint presentations.
+I've been trying for the last 3 months to find positions in any company that claims to have an AI
+research division. The problem is for smaller companies, I found that most offers with AI in the title are
+basically doing what my consulting firm does, use AI and datascience as buzzwords to upsell
+themselves. I really do not want to change jobs only to do basic stuff and powerpoint presentations.
+And for the big ones, the few positions I come across for which I know the company really does
+research (Google, FB and co) I haven't been able to go past the HR phone interview (I have applied
+worldwide). Seeing as these positions ask for PhDs or MScs, my questions would be:
+1. Considering my background and experience, am I deluded in thinking I have a shot at the big
+ones ?
+2. If I don't have a shot, why? Is it because of a lack of education ? the perceived quality of my
+education (not stanford or MIT) ? Is it because I pigeonholed myself in a consulting job ?
+3. What should I do to maximize my chances, should I go back to academia and get a PhD ? Should
+I work in an AI startup to wash away the consultant stigma/ build my public github (can't really
+share what I'm doing as a consultant) ?
+
+81 Comments
+
+Give Award
+
+Share
+
+91% Upvoted
+Posted byu/rrenauww2 years ago
+[D] To PhD or not to PhD ?
+u/Yosadhara
+·
+PROMOTED
+Flutter Database Options and Benchmarks
+https://objectbox.io/flutter-d...
+Learn More
+r/MachineLearning
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/2/23
+SORT BYBEST
+
+This thread is archived
+New comments cannot be posted and votes cannot be cast
+BeatLeJuceResearcher2 years ago·edited 2 years ago
+The real question you need to answer (and be really honest about) is the question of what do
+you REALLY want to do?
+When you say "research", do you mean fundamental research (e.g. "what does th error
+surface of a neural network look like?"), applied research ("can I use deep learning to solve
+problem $X?"), product development ("how exactly do I implement a semantic segmentation
+CNN to recognize pedestrians in my car") or do you just want to get into this area because it's
+hip/well payed and don't really care about the contents?
+I've asked these questions in decreasing likelihood of needing a PhD. Let's go through them
+step by step:
+In my experience, industry AI research labs that do fundamental research (especially the ones
+you apparently want to get into, like Deepmind, Google Brain or Facebook AI Research) hire
+scientists. Having a Master's degree or two (or consulting experience) doesn't make you into a
+scientist. Because that's what a PhD is for: to teach you how to be a scientist. Your
+consultancy will not mean much, because when you're consulting, you don't need science
+skills. Sure, you need analytical skills and you need to know how to apply existing methods,
+but that is not what DOING SCIENCE means. You have to learn to ask the right questions
+(Step 1), know how to approach that question scientifically (Step 2) and then, work hard until
+you have your solution (step 3) and then analyze that solution (step 4) and maybe
+communicate those results (step 5). More than likely, right now you only know how to do step
+3 (and 5), because up to Master's level, that's what university education mainly focuses on, in
+my experience (YMMV, I haven't met many French ppl). So it's no wonder the big labs aren't
+interested in hiring you as a scientist, because from your CV, it's apparent that you are not a
+scientist.
+Go and look at the papers of the top conferences, where the labs you want to get into actually
+publish. Are you, right now, consistently capable of producing research like that? I don't mean
+just understanding those papers and being able to re-implement them. You hopefully are
+able to do that. But would you be able to come up with solutions like that? Would you even
+think of trying to solve problems like this one? Would you be able to come up with the
+math/proofs required to show the theoretical background, would you know how the stuff is
+connected to all the other stuff currently being researched (so you know what else to cite)?
+Because those are the skills that scientists have.
+And if you really do already know how to do all of that stuff, then your CV should clearly
+reflect that: Where are the papers at top conferences that you authored yourself? Everything
+else barely matters for true research positions.
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/3/23
+Now, the thing is that there are still fewer scientists than there are open positions for ML
+scientists. And even among people with PhD, there's a wide range of quality differences. So
+research labs DO actually hire some scientists-to-be, as long as they're very promising. Some
+even collaborate with some universities so they can snag promising talents from there, or
+have programs to produce their own new scientists (e.g. in residency programs). But you'll
+still need to show that you are able to do science (or will potentially be in the future) . I don't
+think having a Master's and some Consultancy job are enough to show that you have
+promise as a scientist. Having a paper at a good conference does that. If you're just an MSc,
+even a mediocre conference or a workshop is a good indicator. At the very least, find an
+reputable reseracher who can vouch for you. But IMO, doing a PhD is your very best option if
+you want to do fundamental research.
+If instead of fundamental research you want to do applied research, the game gets a little
+easier, because it's easier to get your foot in the door in an applied field (I think). The bar of
+entry is a bit lower, I think, because simply knowing the applied field will get you far. It's also
+easier to move laterally (e.g. from the software developer that writes the front end to ML
+engineer that implements the algorithms in the backend to the applied researcher who
+actually develops the algorithms).
+For both kinds of research, the PhD is not the only way to entry, albeit the most common. Of
+course you can write blogs, re-implement stuff and have side projects on github for that kind
+of stuff (since a lot of it is applying existing science to new problems), and that's a good way
+to show people you're a motivated, interested and capable person. Especially for people with
+good analytical skills. But still, if research is your end goal (no matter if applied or not), a PhD
+is the usual career path choice. And with how the field is growing, it's likely to only get harder
+to get into the field without the proper education ( = without doing a PhD).
+Lastly, if you want to do development, I think you should have no problem getting a job with
+your current skill set.
+However, the main question that puzzles me: if you really want to do RESEARCH, why aren't
+you doing a PhD already? Because that's pretty much exactly what a PhD does day-in, day-
+out. You don't need to work at Google to do cool AI stuff. Most of the very cool research in
+the field is done in academia by PhD students! (after you finish your PhD, it should be no
+problem to move into an industry research position for more money)
+Disclaimer: this is just my personal opinion & experience. YMMV.
+TL;DR: if you want to do research, start by doing a PhD
+EDIT: a lot of people have contacted me and are worried because they might not be "good
+enough at math/proofs" to do a PhD. Don't sweat it! You're supposed to learn on the job, and
+a solid grasp of undergrad math will get you a long way. No-one expects you to be a math
+whiz. It's true, ML is an analytical field were we're trying to find well-founded answers using
+math, but enthusiasm and curiosity about the field is all you need. The rest will come with
+time. What I talked about in this post is what I personally expect an ML research scientist to
+be able to do AFTER having completed a PhD, not before (and of course, not everyone has to
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/4/23
+research super math-heavy stuff, there's plenty of interesting topics in ML that don't require
+pages and pages of proofs).
+127
+Give AwardShareReportSave
+
+noraizon2 years ago
+This answer is gold for undecided MSc students.
+I'd like to know your thoughts on how to get the maths skill level to "come up with the
+math/proofs required to show the theoretical background", if one comes from say, a plain
+old CS background or a little lower?
+I have to mention tho, that I'm brushing off/learning some algebra and bayesian stats in
+the masters.
+13
+Share
+
+BeatLeJuceResearcher2 years ago
+Don't worry, you learn "on the job". My math was also pretty weak, but no-one expects
+you to know everything at the beginning of your PhD. You're there to learn, after all.
+6
+Share
+
+kilgoretrout922 years ago
+I really needed to hear that. Thanks.
+8
+Share
+
+Nuzdahsol2 years ago
+You are not alone... That makes me feel relieved.
+4
+Share
+
+noraizon2 years ago
+that is really reassuring. thank you for your answer
+2
+Share
+
+rrenauww
+
+2 years ago
+The reasons for me getting into consulting instead of a PhD are the following:
+I was a little lied to by the consulting firm in which I am on their level. We have an "AI
+lab", we have PhDs working here, partners teach classes at other engineering schools,
+etc. I thought going in that I had found the golden ticket, I would get to do advanced
+stuff, develop and apply new solutions all the while being well payed etc. This clearly
+isn't the case and is my fault.
+I thought that the data, problems and solutions consulting firms have access to would
+be the most interesting. In a caricatured way, public datasets have been studied to
+death, the only place to find cool unexplored datasets and problems is deep inside
+companies' datalakes.
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/5/23
+Although not relevant to my ML background (hence why I didn't mention it), I did 2 six
+months internships before finishing my degrees (gap year) one in M&A and one in
+business intelligence. So I had already gotten a taste of a work environment and liked
+it.
+To answer the first question, I guess I want to do applied research. I really enjoyed writing
+my master thesis on WGANs for my "master recherche" in applied math. So I guess that's
+what I want to do. It's just that both degrees + gap year of internships + my year of
+experience make 7 years already, I really hoped it would be enough, I am not asking to
+become the head honcho at google brain overnight, I want to work on cool stuff with cool
+people.
+10Share
+
+
+BeatLeJuceResearcher2 years ago
+For applied research, I think it might be easier to move into the area. But especially for
+the big labs, you are competing with PhDs that have an education as scientists. If you
+neither have large experience with the applied field, nor research experience with ML,
+this will be hard (And a "master recherche" isn't 'research experience'). You can improve
+your hireability by showing that you have relevant experience in the field: writing papers
+is likely too hard, but you can still write blogs about ML side projects or contribute to
+relevant open source packages. Still, since you said:
+I want to work on cool stuff with cool people
+Doing a PhD offers you exactly that. The paycheck sucks compared to industry, but all
+the other things are exactly what a PhD does. And you get access to enough unexplored
+datasets and problems if your lab has interesting research collaborations.
+9
+Share
+
+rrenauww
+
+2 years ago
+So the question isn't really PhD or not, but which lab is the best ;)
+3
+Share
+
+StrawberryNumberNine2 years ago
+Aren't French PhDs done in like 3 years? I think that's a pretty good option for you.
+1
+Share
+
+gammaknifu2 years ago
+i think this is a nice and relevant answer. That being said, I also think lots of solutions, as
+well as important and elusive questions, are born out of necessity, such that one can very
+rarely (if ever) answer the question of: "can I produce something like this?" without oneself
+being already submitted to such a fate.
+1
+Share
+
+pinouchon2 years ago
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/6/23
+Come on, what does the loss surface of NN really looks like? You keep circling around the
+point.
+Just kidding good answer
+1Share
+
+
+agoldin2 years ago·edited 2 years ago
+My PhD was not in ML and I do not know current ML job market well.
+Saying that, my usual answer to the question "Should I get a PhD or not?" is the following: if
+you do not know the answer, you probably should not.
+21
+Give AwardShareReportSave
+
+Comment deleted by user2 years ago
+TelepathicMalice2 years ago
+3.5-4 years is typical where I live. Here most scholarship money runs out at 3 or 3.5
+years. This tends to motivate people to finish and get the thesis submitted.
+3
+Share
+
+n3b_u2 years ago
+In the genuine companies are you applying directly to the AI or research roles? It can be
+easier to move laterally within a company rather than go straight into a role from the outside.
+I'm in a similar predicament to you, and am taking some advice given by Peter Norvig in an
+AMA he and some researchers did recently
+(https://www.reddit.com/r/science/comments/7yegux/aaas_ama_hi_were_researchers_from_
+google/):
+"...I can see that it is tough to get a job in AI Research coming straight out of an undergrad
+program at a small school. But, you are in a position to get a software engineer position at a
+big company, and once you are there, express your interest in AI, learn on the job, keep an
+eye out for AI-related projects you can work on, and chances are that in less time than it
+would take to do a PhD, you'll be an established AI expert within your company."
+This might apply differently to you given your background, ie it might not be a software
+engineering role you take at a big company, but the theory remains the same. I don't think
+having a PhD is vital, it just alters your route to the end goal. Get your foot in the door based
+on what your most qualified in, then use lateral moves to get closer to what you want to do.
+26
+Give AwardShareReportSave
+
+gionnelles2 years ago
+I couldn't agree with this more. My background is painfully light on academics, but 20+
+years of applied computer science including 10+ years of extremely large data analytics
+which led to my interest in ML. I worked my way through my company to hold a chief data
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/7/23
+scientist position leading our R&D team, speaking at conferences, and implementing
+production ML for federal customers. I'm back in school to supplement my extensive work
+experience with current academic knowledge for data science, but it certainly isn't
+necessary to have a PhD before getting a position in the AI/ML field.
+8
+Share
+
+maxToTheJ2 years ago·edited 2 years ago
+for federal customers
+Well I didnt see that coming when finding out a chief data scientist has a background
+light on academics.
+EDIT:
+Congratulations on the promotions. However, if you are aware that chief data scientist is
+management position and are willing to learn plus aware of what you dont know.
+However, every single time I have interacted with an executive level data person who is
+out there doing bad data practices like decisioning on absurdly small data samples it has
+been someone without a rigorous data background who managed to move up the
+corporate ladder without filling in very basic knowledge gaps.
+There is nothing sadder than seeing a subordinate who knows his superior is wrong
+from a technical standpoint and is being loud as well. It’s like holding someone
+intellectually hostage. Everyone should always work to avoid this
+2Share
+
+
+gionnelles2 years ago
+Actually a lot of our initial work for this company was commercial healthcare, and I've
+done 10 years in commercial ranging from startups to large companies.
+My personal background leans more on experience, but multiple PhDs work for me
+and I'm at least a co-author on a few ML academic papers.
+Federal is generally years behind commercial on widescale adoption of ML, but there
+are pockets of advanced research such as DARPA, IARPA, and NSA.
+I understand if you feel the need to deride someone who has a different path in the
+industry, but my post was meant to encourage those who aren't sure how to
+progress in the field that there is more than one path to success.
+5
+Share
+
+maxToTheJ2 years ago·edited 2 years ago
+I understand if you feel the need to deride someone who has a different path
+in the industry,
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/8/23
+Why do folks with bachelors think everything comes down to whether you have a
+bachelors or not.
+My comment is more about having a strong foundation before being promoted
+or being the type of person who is aware of his weaknesses and works to fill them
+in as well as knowing limitations.
+The reason I emphasize before being promoted is that in a corporate environment
+you get promoted by how well you do your current job , how well you are
+perceived based on the ability of the promoter to do your promoted job, how
+good your personal relationship with those above you are. Many times this will
+have little to do with your technical ability and as you move up where you do more
+with management skills. Technical ability factors in less.
+There are companies whose DNA is built in with technical ability and engineering
+who expect and can evaluate technical ability but these companies are few and
+far between. I just saw a thread on a related subreddit where an at minimum
+Senior Data Scientist will be hired based on a intern as the technical domain
+expert.
+In most companies at the executive and management level you will be evaluated
+by business stakeholders on how well you can manage to contribute to their
+bottom line. This creates blind spots in technical ability and for many folks
+promotions will create confidence to ignore these blind spots and organizationally
+due to your promoted position you will be insulated as well.
+1Share
+
+
+gionnelles2 years ago
+Compared to the PhDs I work with, my academic background is limited, yet I've
+been very successful. I'm not patting myself on the back, it was intended to
+provide encouragement for the exact sort of question this thread was created
+to ask.
+Having a strong technical foundation to do the job you are being hired to do is
+important. I've been doing big data analysis on petabyte+ data sets for years,
+and I'm not in this position because nobody vetted my capabilities or I'm
+friends with senior executives.
+Clearly this is something you feel very passionately about, but I'm not sure
+exactly what point you are trying to make. If you are disagreeing that you can
+land a data science position from merit by learning the skills outside of a PhD
+program and working up through a software company... we are going to have
+to agree to disagree.
+That being said, I'm happy to discuss more if you like, feel free to PM me. I'll
+also be attending Tensorflow Dev Summit in CA this month, so if you happen to
+be there I'd love to talk in person.
+
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/9/23
+3
+Share
+
+
+maxToTheJ2 years ago·edited 2 years ago
+but I'm not sure exactly what point you are trying to make. If you are
+disagreeing that you can land a data science position from merit by
+learning the skills outside of a PhD program and working up through a
+software company... we are going to have to agree to disagree.
+Simply put into 3 points
+A) I agree there are paths to chief data scientist which even involve just a
+bachelors and even just a HS degree. However, all the paths which leadup
+to chief data scientist without having a superior with strong technical ability
+to teach and assess you are a subset of these exact paths.
+B) Those paths can lead to very foundational technical blind spots. So if you
+are going to go down those paths make sure that in a few instances on the
+way up it is under folks with very strong technical backgrounds.
+C) The higher up you get promoted if you dont take care of those blind
+spots they will become harder to both see and address as management
+duties take more of your day to day and the folks you report are more likely
+to be less technical
+3
+Share
+
+gionnelles2 years ago
+I agree with all 3 points.
+I think it's worth mentioning that whatever path you take you are going
+to develop blind spots unless you take special care to resolve them. One
+of the advantages of my background for example is a strong
+understanding of production code. In my experience most data
+scientists who have spent more time in academia struggle severely with
+documented, reproducible, and tested code when it comes time to
+productize experiments. It's not an indictment of the value of academia,
+just a blind spot that I often see.
+Ideally regardless of the path someone follows, strong technical
+fundamentals, a willingness to learn, and self reflection on areas to
+improve are all valuable.
+4Share
+
+
+gionnelles2 years ago
+Ahh, I think I understand more from your edit. Yes, I'm extremely aware that a large
+part of my job is managing my researchers, developers, and doing technical briefings
+as much as implementation. It's why I've made such a focus on keeping my fingers in
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/10/23
+code and going back to school to (slowly) work towards the academic credentials I
+need.
+There is nobody in a management position who can also be the best engineer or best
+scientist for a team, our time is too divided. I try and listen to people smarter than
+me, and apply the knowledge I have to make our pipeline work. In our case the
+pipeline consists of ML research (mostly focused on human cultural and social
+behaviors) which create generalized tools that eventually get productized for end
+customers.
+I'm fortunate that I get to contribute to the actual ML research and co-write papers,
+but I also am stuck at the BD side of things trying to find applications for our
+customer base for these technologies. I love the work, and I try very hard to improve,
+but I want to make sure people who are interested in the field don't feel like they
+have no option to get involved in AI/ML without following a PhD program from a top
+10 university.
+1
+Share
+
+maxToTheJ2 years ago
+I want to make sure people who are interested in the field don't feel like they
+have no option to get involved in AI/ML without following a PhD program from
+a top 10 university.
+I think the problem has multiple dimensions happening
+A) Data science is slowly becoming more professional which means more and
+more doors that used to be open are closing. This is similar to what happened in
+CS with programmers where there was a time you could join without even
+completing high school but now that door is all but closed as software
+development became more professional
+B) The outlook for academic science is bleak . Academic science is very
+codependent with government and the current climate for science ranges from
+lukewarm to downright adversarial. These unemployed or discouraged scientists
+still have to work so they move over to data science and ML positions. This floods
+the market with adaptable talent for the positions opening up
+I am not sure what the best path for a bachelors is outside of networking hard or
+developing a very strong expertise in a subject ( the type of kids whose experience
+started with building neural nets for fun in high school). The latter I assume isnt
+asking the type of question OP is asking because at that age you would gain
+mentors to get that strong expertise so they probably fit into the well connected
+network group
+1Share
+
+
+ihugyou2 years ago
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/11/23
+Having a PhD is vital to being an ML or AI research scientist, unless you were an exceptional
+MS student in the discipline or a natural math genius. I’m not talking about data scientist or
+ML engineering roles.
+Anyone who says otherwise is likely mistaken what a research scientist is, and most aspiring
+people on this sub are, unfortunately.
+8Share
+
+
+technochickenmaster2 years ago
+I know Google and Facebook tier companies are in high demand but still. As an undergrad
+in a non top ten college myself we are told everyday that there is a shortage of
+datascientists, that people are getting hired left and right for huge amounts of money etc.
+Is it really necessary to have 3 years work experience/ get in via sneaky ways ?
+From what I understand the OP has already two MScs and a year work experience, I'll have
+only one BSc. Am I screwed?
+5
+Share
+
+maxToTheJ2 years ago
+As an undergrad in a non top ten college myself we are told everyday that there is a
+shortage of datascientists, that people are getting hired left and right for huge
+amounts of money etc. Is it really necessary to have 3 years work experience/ get in
+via sneaky ways ?
+Yes. There is no shortage . Colleges are being disingenuous. The more accurate
+statement for undergrads is “there are data analyst jobs available and if you are a well
+connected bs’er you can get a data science job doing a/b testing or something simple
+and fake it until you make it”
+3Share
+
+
+technochickenmaster2 years ago
+Well, shit.
+3Share
+
+
+hpbrowntown2 years ago
+I moved into the ML/AI space a year out of undergrad, it was a lateral move within the
+company. Given that I was already in an analyst position, the ML team knew I would
+learn on the job, and I spent a couple hours every day reading textbooks and papers to
+keep up. It's definitely possible to do right out of college just make sure you're doing the
+work to keep up with the space
+2Share
+
+
+technochickenmaster2 years ago
+I don't know anymore, from reading the answers in the thread, it would seem like a
+PhD would be required. Plus by going for a PhD directly I would not make the
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/12/23
+mistakes the OP made by doing M&A and consulting and stuff.
+2
+Share
+
+Nick7hill2 years ago
+Well said!
+1
+Share
+
+inkognitML Engineer2 years ago
+I work as a Machine Learning Scientist for a start-up, which in theory means I get to do
+research in ML. Well, it turns out that in practice, as a small company, you have to spend most
+of your time doing engineering stuff, and you only get 5-10% of your time to do "real
+research".
+Most small companies don't do research. Real research in the industry it's mostly done by the
+big fish as they can afford to have a dedicated workforce to do so.
+At best, you'll get a position like I have at the moment, but you can not expect too much from
+it in terms of research.
+Because of this, I'm about to change companies to a Machine Learning Engineer position in a
+AI consultancy company. This way, at least I get to work with the state of the art in ML and
+apply it to different problems, which for me is a lot more fun, since I'm not doing actual
+research most of the time.
+I hope my insight helps somehow.
+PS: Regarding a PhD, I also applied to one. My perspective is that you need one in order to
+climb the ranks in seniority in the industry if you desire a hands on position, as opposed to a
+managing one.
+8
+Give AwardShareReportSave
+
+ozansener2 years ago
+I think 5-10% "real research" is quite normal for any product oriented engineering company.
+If you are building something which needs to work, it will probably take around that much
+engineering/research ratio.
+10
+Share
+
+inkognitML Engineer2 years ago
+I agree, but I think OP had a different perspective, as did I when I first started the job.
+That's why I claimed "real-research" is only done by the big companies that can afford it
+2
+Share
+
+rrenauww
+
+2 years ago
+Wow, really bursting the bubble I had on startups there ;)
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/13/23
+Can I ask you what consultancy company you are going to be in that does real AI ? Because
+to burst your bubble a little bit, mine clearly got me to sign on with promises and claims of
+state of the art ML.
+3
+Share
+
+inkognitML Engineer2 years ago
+I will PM you with that ;)
+1
+Share
+
+rrenauww
+
+2 years ago
+Thanks !
+I really think a list of "real" AI/ML companies could be a nice addition to the sidebar.
+Is it feasible ? Maybe not 100% but it would be very nice.
+3Share
+
+
+[deleted]2 years ago
+I haven't been able to go past the HR phone interview (I have applied worldwide). Seeing
+as these positions ask for PhDs or MScs, my questions would be:
+Considering my background and experience, am I deluded in thinking I have a shot at the
+big ones ?
+If I don't have a shot, why? Is it because of a lack of education ? the perceived quality of
+my education (not stanford or MIT) ? Is it because I pigeonholed myself in a consulting job
+?
+I don't think it depends on the degree and the reputation of the school necessarily (although
+it might help). I think it depends more on a) your project portfolio (showing what you can
+do/already did) and b) how you present yourself (knowledge + personality) during the
+interviews.
+Just having a Bachelor's degree while being in a grad program at a mid-tier US college at that
+time, I did the phone tech interview with Google, which I passed. So it wouldn't say that
+either a Ph.D. or being at a prestigious school are necessary to be considered.
+I eventually decided not to pursue this further though, (I didn't go to the campus interview)
+because during the interview, I realized that this company wouldn't be for me: I would want
+to know what I will be working on before I join the company, not afterwards -- or in other
+words, how can I be passionate about my job if I don't know what it is, yet.
+5
+ShareReportSave
+
+LegacyAngel2 years ago
+Interview with Google as software engineer or ML engineer/researcher/data scientist?
+2
+Share
+
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/14/23
+[deleted]
+2 years ago
+data scientist
+2
+Share
+
+david_picard2 years ago
+There are many available PhDs that have defended recently and have already a good
+research experience as attested by their publications, why would a company hire you and not
+them? You have no experience in AI research, and probably no experience in research
+whatever the domain since the typical French engineering degree has very limited options in
+that regard.
+The only place that is going to accept you to do research without any prior experience is the
+academia if you start a PhD, because it's basically its job.
+Now, that being said, don't start a PhD if you only want the diploma and not to enjoy the
+journey. People that do that generally do not finish their PhD. You have to believe that
+working like crazy for 3 years on an insignificant subject with a crappy salary is all what you
+ever dreamed of.
+8
+Give AwardShareReportSave
+
+rrenauww
+
+2 years ago
+So to understand you correctly there is absolutely no way to work in/with an AI R&D team
+without a PhD ?
+I have a "master recherche" in applied mathematics, does this not count ? I did have to
+write a master thesis for it (I did mine on WGANs)
+2
+Share
+
+BeatLeJuceResearcher2 years ago
+Not the guy you're answering to, but: For things like Google Brain or Facebook AI: pretty
+much absolutely impossible, yes. Why would they pick you, when they can pick the
+creme de la creme? Forget about it. For a random R&D team that does some AI in some
+other company: unlikely, but not impossible.
+Furthermore: did you publish your master thesis at some conference? If you didn't, it's
+not counting for much.
+And lastly: PhD students work on AI full time and are easy to get in. Why do you want to
+work in a research lab and not simply in academia?
+3
+Share
+
+rrenauww
+
+2 years ago
+My understanding was that getting any random PhD (not top 10) would be only
+marginally better than no PhD. That it was hard to get out of academia once you are
+inside.
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/15/23
+And more simply that in all the PhD offers I looked at before graduating, few of them
+were on "pure" AI. There was a lot of stuff on computer vision, on signal processing,
+wrangling huge datasets (DNA etc) etc.
+0
+Share
+
+BeatLeJuceResearcher2 years ago·edited 2 years ago
+If you want to do applied research, this is almost always coupled with a field
+anyway (as it is applying ML to something like NLP or vision or something).
+Besides, lots of labs aren't "pure" AI and still publish at NIPS.
+As far as "random PhD" goes: doing a PhD for the sake of it in a mediocre
+department is likely a waste of time. But you don't need to be in a "top 10"
+university. You do need to do deliver solid, relevant and novel work, however (and
+have an advisor that can help you do that). I can only share my own experience:
+My university is far from "top 10", but our lab does have a good track record at the
+important conferences (NIPS, ICML, ICLR, ...), and we do what I'd consider
+consistently good research. During my PhD, as my research started getting some
+attention, I got more and more unsolicited offers from start-ups, collaborators
+and the big industry AI labs. So obviously the choice of institution doesn't count as
+much; a PhD study is what you make of it.
+(If you do decide to go down this route: the one crucial aspect that you cannot
+under any circumstances ignore is the choice of advisor, which IMO is much more
+crucial than the choice of university. Make sure you pick someone that can show
+you not just how to murk along in the scientific world, but one that forces you to
+excel in your field and can open doors for you, and the world will be your oister.
+As a rule of thumb, I'd recommend to pick someone who is capable of publishing
+at ICML/NIPS and isn't overrun with students already)
+EDIT: so I guess you could say your university doesn't matter much, but your
+advisor/lab should indeed be in the top 100 or so.
+4
+Share
+
+rrenauww
+
+2 years ago
+Top 10 was a bit of an exaggeration ;)
+Good advisors and good university are generally correlated though right ?
+2Share
+
+
+BeatLeJuceResearcher2 years ago·edited 2 years ago
+Correlated, but not really that strongly. As a few obvious examples e.g. the
+university of Toronto & Montreal have some very, very, very well respected
+Deep Learners, yet both universities aren't generally regarded as top10 in
+general (though of course they are by no means bad universities). And
+some very highly respected people are at very small universities you might
+never have heard of (e.g. Neil Lawrence was at Sheffield, and Hugo
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/16/23
+Larochelle was at Sherbrooke... both universities that I personally wouldn't
+know if it wasn't for those people). There are tons of other examples. On
+the flip side, I wouldn't place MIT among the "top 10 universities for
+machine learning", despite what you might think. Yes, there are people
+there who do very good research, but there are other universities who are
+just stronger in this area right now.       . But of course,
+top-tier universities tend to attract very good talent, both with regards to
+professors and sutdents. And they usually have good programs in place
+that will definitely help you do better research. Simply because they have
+good teachers and force you to learn a lot of stuff, and because the
+university name opens a lot of doors for you anyways. They push you more
+towards doing good research, regardless of advisor. But there are certainly
+lot of very good ML labs outside of the big universities.
+2
+Share
+
+pleasedon'tkillme,MITppl
+
+ml_lad2 years ago
+Obviously understand if you don't want to identify yourself, but could you list
+out what may be some less prominent ("non-top 10") universities that are still
+doing stellar work in specific fields? I am very curious to better know the
+landscape.
+1
+Share
+
+BeatLeJuceResearcher2 years ago·edited 2 years ago
+In general, people who manage to consistently publish at top tier
+conferences/journal are the people to look out for. In fundamental ML
+research, those are NIPS and ICML (there's other decent ones like ICLR,
+COLT, AISTATS, UAI, ... , but those two are the most general) . So if you see
+someone who got a track record of publishing there, that's a very good
+indication that they are doing a very good job. Other very obviously stellar
+people are the organizers/committee people at such conferences. Likewise,
+if someone mainly publishes at lower-tier conferences (and for someone
+who is not in the field, this is unfortunately hard to judge), that's a bad sign.
+So if you want to judge someone's research capabilities, look at where they
+publish. (note: of course, this says nothing about their true ML skills, just
+about how well they do research).
+1
+Share
+
+david_picard2 years ago
+It's not so much the university you get your PhD from than your scientific
+production during the PhD. If you do your PhD at MIT but do not have any major
+conference or journal paper at the end, people will think you are a joke (both in
+academia and in the industry). Conversely, if you do your PhD in some random
+university but you manage to finish with 2 NIPS, 1 ICML and a TPAMI, you will
+have no problem to find a good position.
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/17/23
+If you start a PhD, make sure your advisor has a high standard of publication and
+make clear from the beginning that you aim for that and no less.
+2
+Share
+
+trexd___2 years ago
+http://matt.might.net/articles/phd-school-in-pictures/ Here's a great gragh that illustrates the
+purpose of obtaining a Phd.
+4
+Give AwardShareReportSave
+
+Comment deleted by user2 years ago
+nlgranger2 years ago
+The engineering degree in France is not delivered by universities, it follows a cursus in
+(smaller) separate institutions which persist mostly for historical reasons and because it
+works ok so why not :-).
+8
+Share
+
+sobe862 years ago·edited 2 years ago
+Engineering degrees from the top engineering schools in France are pretty badass. My gf
+has one, the amount of stuff they cover is really impressive.
+9
+Share
+
+
+[deleted]-12 points·2 years ago0 children
+chickenshitnibba2 years ago
+The French education is pretty particular. They really like to do things their way.
+3
+Share
+
+DrPharael2 years ago
+This is especially relevant here, because the French education system branches into (i) the
+universities and (ii) the engineering schools. The latter ones are considered as elite schools
+for historical reasons and are therefore attracting most of the best students.
+The point is that because of this, graduating from such a school has been considered more
+"prestigious" than doing a PhD; and in fact your chances of getting a job afterwards, even in
+R&D, were higher. As a result, students did not feel the need to do a PhD after their
+engineering schools (like OP). This is however changing a bit now.
+2Share
+
+
+Wizard_Sleeve_Vagina2 years ago
+If you're getting phone interviews, it isn't your qualifications holding you back. Practice your
+answers to behavioural interview questions, and review technical details of your past
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/18/23
+projects.
+8
+Give AwardShareReportSave
+
+rrenauww
+
+2 years ago
+I didn't want to publish too much personal identifiable information, but the only calls I got
+were from Google and Amazon. They wanted me for their Cloud divisions in a more big data
+not ML type position that I'm in no way qualified for (I work with spark a lot, but am in no
+way an expert in database management). No calls for the more AI type positions, hence this
+post.
+7
+Share
+
+Wizard_Sleeve_Vagina2 years ago
+I was able to get through the phone screens for a data science position at Amazon with
+only a BSc. It is about working on similar projects, and being able to communicate
+methods and learnings.
+2
+Share
+
+rrenauww
+
+2 years ago
+I got through too, it's just that I am in no way qualified or willing (at least for now, if it
+is my only chance I'll take it) to work as a big data engineer.
+3
+Share
+
+FishZebra2 years ago
+To be fair, qualifications do not matter that much in the industry. You have a MSc,
+so you are capable of learning things quite fast so if you at least know some of the
+basics they will probably accept you based on "qualifications".
+3
+Share
+
+rrenauww
+
+2 years ago
+That's what I originally thought too, but after 3 months of not finding anything
+I really am starting to self doubt a lot.
+1
+Share
+
+fimari2 years ago
+Go to people who are searching (no Amazon and Google they have a loooot
+of choice) look at boring businesses, industrial manufactures, Oil and Gas
+industry, city planing agency's and so on - right now those are the people
+who want guys like you they will give positions where you can do
+something, where you have some free space and tons of data.
+1
+Share
+
+totallynotarogueai2 years ago
+Good for you man, but that doesn't really answer the question.
+1
+
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/19/23
+1
+Share
+
+
+a3lentyr2 years ago
+French engineering degree and PhD here, Basically do a PhD if you want to have 3 years to
+explore a subject (you don’t get this kind of freedom elsewhere), but it does not help you
+much to get a job in AI in France. It does not hinder you either - you are considered as a +3
+years of experiences.
+In france you have CIFRE PhD, they are not easy to get but you are almost guaranteed to be
+hired by a company after.
+If you can move in France, you usually can find a company hiring in data science somewhere -
+for instance at the time there is lot of things happening in cars related company e.g
+continental, ... most company tend though to offer jobs with a mix of big
+data/devops/datascience, so you may be disappointed if you are looking for 100% data
+science... however, in my experience algorithmes are often the easy part in an industry
+pipeline, the hard part being the managment of data.
+3
+Give AwardShareReportSave
+
+technochickenmaster2 years ago
+Do the big AI companies like Google Facebook Amazon etc offer CIFRE? From what I can
+read online this is pretty great ! PhD + guaranteed job at the end is a nice deal !
+1
+Share
+
+DrPharael2 years ago
+I have actually never seen such grants from the GAFA, probably because they don't have
+large research groups in France (well, Facebook has one in Paris now so this might
+change).
+I think they rather offer internships of several months to students already enrolled in a
+PhD program, which is also one interesting option.
+2
+Share
+
+_sulo2 years ago
+Facebook AI Research has a few CIFRE students, Heuritech also has one and I'm sure
+some other companies do as well.
+1
+Share
+
+DrPharael2 years ago
+I have never heard of Heuritech but of course I'm not saying that there is no CIFRE
+students in this field (I've been one myself), I was only referring to the big AI
+companies as mentioned by the original comment.
+But fair enough for Facebook (pun intended), it's not surprising that they use such
+a mechanism since they have a research team in Paris now.
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/20/23
+1
+Share
+
+
+nlgranger2 years ago
+Disclaimer: I'm doing a PhD in ML after a engineering degree (French engineering school as
+well), but I haven't been in contact with companies so far. My last year of engineering school
+was a specialization in ML and an internship in an academic lab. I then continued with a PhD
+in the same lab. I'd say that my training was insufficient at the start of the PhD and I regret
+not spending a year or two with an actual ML master in university (maybe the M2 would be
+sufficient if the basics are already known).
+basically (and this is only my opinion):
+you can make a good master degree like the one at Orsay University, probably the one
+at UPMC is good also.
+make an intership or work as a research engineer in an academic lab, it will give you
+more time to learn than if you work in a startup. If you have done some master courses
+before, you will have contacts to find a position and you will be more confident of
+finding a good team (FYI: position offers are a legal obligations but are often written
+once a candidate is already selected, so you need contacts).
+not all start-ups open-source the code, authorship will not necessarily point to you
+a friend of mine started looking for a job and was asked if he scored on Kaggle, so you
+may want to have a look at that.
+I have been told that only the PhD is valued outside of France, in France the Master level
++ experience should suffice.
+don't start with the PhD right away, be sure to know the team, the subject etc...
+5
+Give AwardShareReportSave
+
+StrawberryNumberNine2 years ago
+The M2 MVA in ENS Cachan is supposed to be one of the best to jump-start your ML
+research also.
+2
+Share
+
+snendroid-aiML Engineer2 years ago
+nope
+2
+Give AwardShareReportSave
+
+Roboserg2 years ago
+no. For applied research or eng. job M.Sc. is enough. We have BOSH research facility nearby
+that does applied research for autonomous cars. You DON'T need a PhD to make a NN for
+pedestrian / sign detection etc. You DO have to have M.Sc as a B.Sc. would lack knowledge.
+Thats what M.Sc is for. PHD is for fundamental research.
+2
+Give AwardShareReportSave
+
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/21/23
+JosephLChu2 years ago·edited 2 years ago
+I technically only have a Masters and I work with the title of research scientist at a big
+company's R&D lab. Though, I previously worked at a startup that got bought by Microsoft as
+a data scientist, and in practice this current lab is more focused on applied than basic
+research.
+Due to my boss being awesome and giving me free rein on a lot of things, I actually pursue a
+fair number of research experiments that range from the highly practical (i.e. can we solve
+company problem x with model y), to the highly theoretical (i.e. let's explore what happens if
+we modify this deep learning algorithm in this manner that no one seems to have tried or at
+least published anywhere, based on some ideas inspired by neuroscience).
+That being said, I still have to do a fair bit of engineering to prove to HQ that our research is
+worth continuing, and prototype demos every few months are a thing.
+Personally I think a PhD is only worth it if you plan to go to a particularly reputable academic
+lab like MILA and study with someone like Bengio. Otherwise, you're probably better off
+proving your worth by making some spectacular research project and showing it off
+somewhere online. Admittedly not everyone has the resources to pull this off, but it seems
+like the field is already kind of swapped with folks who are either wannabe ML engineers who
+took Andrew Ng's course and now consider themselves experts, or actual PhDs who jumped
+on the bandwagon and know a bunch of the theory, but have little actual experience doing
+meaningful stuff.
+I'd rather take the latter than the former, but honestly, someone who can show both
+theoretical knowledge and practical experience is best.
+Also, I didn't get into Google back when I first applied fresh out of my masters. They are
+notoriously tough with interviews and prefer false negatives to false positives significantly.
+Remember that they and Facebook and to a lesser extent places like Amazon and Microsoft
+can get the real cream of the crop. My understanding is that you need more than any old
+PhD, you need one from MILA or another top lab in the field, and have published in places
+like ICML or NIPS.
+In a sense I got lucky because I got into industry right before the market got flooded with
+people claiming to understand AI and ML who really don't, and so companies have taken a
+very skeptical stance on hiring to filter out the wannabes.
+When in doubt, don't close any doors. Continue to apply to places in industry and also apply
+to universities with reputable PhD programs and see what sticks. Don't be afraid to consider
+companies that aren't super famous either. A lot of lesser known labs are actually working
+very hard to catch up and attempt to beat the giants at their own game, and in some cases
+their relative agility gives them a potential advantage over the more established
+organizations that are set in their ways, beholden to certain egos, etc.
+The most important tidbit of advice though would be to prove your ability with data. Evidence
+of actual research projects of some kind is good. AI and ML are perhaps one of the only fields
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/22/23
+where you can literally set up an amateur lab in your basement by acquiring some GPUs and
+contribute to science and the actual state-of-the-art if you really work at it. Admittedly this
+costs money that you might not have, but so does a PhD.
+Though since you're from Paris or at least France, you should definitely consider Bengio's
+Montreal-based group, or LeCun's New York based group. They both speak French and
+probably don't mind another Francophone student. Though being Godfathers of the field,
+they both are likely swapped with applications so you'll definitely want to distinguish yourself
+in some way.
+TL;DR: You're not deluded, but you need to be more clever and find ways to stand out.
+Consider less prestigious options that are still respectable. If you get a PhD, make it count by
+getting it from a top tier lab. Prove your worth with data points that show you have potential.
+Best of luck!
+5
+Give AwardShareReportSave
+
+rrenauww
+
+2 years ago
+Thanks, I think you've pretty much summed up what has been said in this thread in your
+TL;DR.
+1
+Share
+
+serge_cell2 years ago
+If you want to work for startup and have proven history of successful industry-research
+projects (github or word of mouth) PhD is not needed. If you want to work for research
+division of big company PhD is a must.
+2
+Give AwardShareReportSave
+
+ephemeraI2 years ago
+If your goal is to do applied research in industry, I would strongly advise against spending 4-5
+years on a PhD. If your goal is to do pure/fundamental research at a top company straight
+out of school, or have a career in academia, then I might consider it.
+1
+Give AwardShareReportSave
+
+rrenauww
+
+2 years ago
+So what would you have me do to maximize my chances to do applied research in industry ?
+Publish stuff to my github ? Start an AI blog like has been proposed in this thread ?
+Something else ?
+2
+Share
+
+ephemeraI2 years ago
+A few high-quality projects on your github and maybe a summary document or personal
+website describing them will definitely help you out if you don't have that to some
+degree. With an MSc as well as the experience at your current position you should have
+Search
+
+2/7/2021[D] To PhD or not to PhD ? : MachineLearning
+https://www.reddit.com/r/MachineLearning/comments/86ab1g/d_to_phd_or_not_to_phd/23/23
+no problem getting a high amount of interviews for applied research positions with how
+popular this field is. Those might not be at the upper echelon of companies that you're
+aiming for, but at least will let you start getting experience in the type of work that
+you're looking for (which your current job obviously isn't) and help you develop yourself
+and your skills to get into Google/FB or wherever your end goal is.
+1
+Share
+
+idansc2 years ago
+Front-tier Research teams, such as FB or Google, require a PhD. Practically, a PhD student is
+not necessarily stronger than master student. Yet a PhD student should know how to write
+academic papers and conduct research without supervision, which is more important for
+research groups. When you see the terms "applied" in the position description, it could
+indicate that a Master should be enough. Last comment, like everything, connections really
+matters, and usually publishing papers, and attend to front tier conferences helps to get
+those kind of connections.
+1
+Give AwardShareReportSave
+
+[deleted]2 years ago
+No.
+0
+ShareReportSave
+
+Search

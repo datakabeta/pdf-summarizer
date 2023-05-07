@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Cohere POC</title>
+  <link rel="stylesheet" href="styling.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Cohere POC - PDF summarizer</h1>
+  </header>
+  <main>
+    
+    <form enctype="multipart/form-data" action="/upload" method="post">
+      <input type="file" name="file" id="file">
+      <br>
+      <br>
+      <input type="submit" value="Upload">
+    </form>
+  </main>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

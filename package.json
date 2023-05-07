@@ -1,0 +1,26 @@
+{
+  "name": "classifier",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Cohere API POC",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --inspect"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Kashif Sami",
+  "engines": {
+    "node": ">=10.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cohere-ai": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22",
+    "pdf-parse": "^1.1.1"
+  }
+}
