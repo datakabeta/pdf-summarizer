@@ -7,92 +7,88 @@ const fs = require('fs');
 const pdfParse = require('pdf-parse');
 
 
-//Get classification
-exports.fileUpload = async function fileUpload(file) {
-  console.log("Received file on server ",file);
+
+//Extract text and summarize
+exports.summarizer = async function summarizer(file) {
+  console.log("Received file on server ", file);
+  // console.log("file path: ", file.path);
+
+  //Extract text from PDF
+  let extract;
+
+  try {
+    extract = await pdfToText(file.path);
+    // console.log('File content of PDF: ', extract.text);
+  }
+  catch (err) {
+    console.error("Error extracing text from PDF");
+    return { status: 'failed', data: err };
+  }
 
 
-  console.log("file path: ", file.path);
+  try {
+    const summary = await generateSummary(extract.text);
+    console.log("Summary received from Cohere ", summary);
 
-  const extract = await getPDF(file.path);
+    return Promise.resolve({ status: 'success', data: summary });
+  }
 
-  fs.writeFile(`./assets/test-extract.txt`, extract.text, (err) => {
-    if (err) throw err;
-    console.log('The file has been saved!');
-  });
+  catch (err) {
+    console.error("Error summarizing file ", err);
 
-  // console.log('File content of PDF: ', extract.text);
+    return Promise.reject({ status: 'failed', data: err });
+  }
 
 
-  cohere.init(config.apiKey); // This is your trial API key
 
-  const response = await cohere.summarize({
-    text: extract.text,
-    length: 'auto',
-    format: 'bullets',
-    model: 'summarize-medium',
-    additional_command: '',
-    temperature: 0.6,
-  });
-  
-  console.log('Summary:', response.body.summary);
-
-  return { 'status': 'success' };
 };
 
 
-
-//Get classification
-exports.getClassification = async function getClassification(requestBody) {
-
-  cohere.init(config.apiKey); // This is your trial API key
-
-  const response = await cohere.generate({
-    model: 'command-xlarge-nightly',
-    prompt: 'Write 5 titles for a blog ideas for the keywords \"large language model\" or \"text generation\"',
-    max_tokens: 300,
-    temperature: 0.9,
-    k: 0,
-    stop_sequences: [],
-    return_likelihoods: 'NONE'
-  });
-
-  console.log(`Prediction: ${response.body.generations[0].text}`);
-
-  return { 'status': 'success' };
-};
-
-
-async function getPDF(file) {
-  console.log("get pdf: ", file);
-  let readFileSync = fs.readFileSync(file);
+async function pdfToText(filePath) {
+  console.log("Extract pdf at ", filePath);
+  let readFileSync = fs.readFileSync(filePath);
   try {
     const pdfExtract = await pdfParse(readFileSync);
     // console.log('File content: ', pdfExtract.text);
     // console.log('Total pages: ', pdfExtract.numpages)
     // console.log('All content: ', pdfExtract.info)
-    return (pdfExtract);
-  } catch (error) {
+    return Promise.resolve(pdfExtract);
+  }
+
+  catch (error) {
     console.error("Error extracting text from PDF", error);
+    return Promise.reject(error);
   }
 }
 
-async function processFile() {
-  const filePath = 'uploads/' + req.body.filename;
-  const fileContent = fs.readFileSync(filePath, 'binary');
-  axios.post('https://api.cohere.ai/v1/summary', {
-    text: fileContent
-  }, {
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer YOUR_COHERE_API_KEY'
-    }
-  }).then(response => {
-    res.send({ summary: response.data.summary });
-  }).catch(error => {
-    console.log(error);
-    res.status(500).send({ message: 'Error processing text' });
-  });
+async function generateSummary(textToSummarize) {
+
+  cohere.init(config.apiKey);
+  try {
+    const response = await cohere.summarize({
+      text: textToSummarize,
+      length: 'long',
+      format: 'paragraph',
+      model: 'summarize-medium',
+      additional_command: '',
+      temperature: 0.5,
+    });
+
+    // console.log("Response from Cohere", response);
+    // console.log('Summary:', response.body.summary);
+
+    return Promise.resolve(response.body.summary);
+  }
+
+  catch (error) {
+    console.error("Error response from Cohere API ", error);
+    return Promise.reject(error);
+  }
+
 }
 
 
+  // fs.writeFile(`./assets/test-extract.txt`, extract.text, (err) => {
+  //   if (err) throw err;
+  //   console.log('The file has been saved!');
+  // });

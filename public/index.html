@@ -3,13 +3,13 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Cohere POC</title>
+  <title>PDF Summarizer</title>
   <link rel="stylesheet" href="styling.css" />
 </head>
 
 <body>
   <header>
-    <h1>Cohere POC - PDF summarizer</h1>
+    <h1>PDF Summarizer</h1>
   </header>
   <main>
     
@@ -17,9 +17,16 @@
       <input type="file" name="file" id="file">
       <br>
       <br>
-      <input type="submit" value="Upload">
+      <input type="submit" value="Summarize">
     </form>
+
+    <div id="summary" class="hide"><p>Here is your summary: </p></div>
+    
   </main>
+
+  <footer>
+    <p>Built by <a href="https://www.linkedin.com/in/ksami/">Kashif</a> | This is a proof of concept for Cohere's <a href="https://docs.cohere.com/reference/summarize-2">Summarize API</a>, so do not use in production.</p>
+  </footer>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="script.js"></script>

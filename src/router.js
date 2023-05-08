@@ -3,7 +3,7 @@ const router = new Router();
 const multer = require("multer");
 
 
-const { getClassification, fileUpload } = require("./controller");
+const { summarizer } = require("./controller");
 
 console.log("Router file loading");
 
@@ -27,16 +27,20 @@ const upload = multer({ storage: storage });
 router.post("/upload", upload.single('file'), (req, res) => {
   console.log("/upload");
   // console.log("Request object: ",req);
-  console.log("Request file ",req.file);
+  // console.log("Request file ", req.file);
 
-  res.send(fileUpload(req.file));
+  summarizer(req.file)
+    .then((data) => {
+      console.log("Summary object: ", data);
+      res.send(data);
+    })
+    .catch((err) => {
+      console.error("Error summarizing file:", err);
+      res.status(500).send("Error summarizing file");
+    });
+
+  // res.send(fileUpload(req.file));
 });
 
-
-//handles initial request
-router.post("/getClassification", (req, res) => {
-  console.log("/getClassification");
-  res.send(getClassification(req.body));
-});
 
 module.exports = router;
