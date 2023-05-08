@@ -8,7 +8,7 @@ The demo below shows how you can get a brief summary of the [Attention is all yo
 ![Demo of PDF Summarizer](PDFSummarizer.gif)
 
 ## Tech
-The following technology has been used in this project:
+The key technology used in this project:
 - [Multer](https://www.npmjs.com/package/multer): A Node.js middleware for file upload handling on the server
 - [PDF Parses](https://www.npmjs.com/package/pdf-parse): A library To extract text from PDF files
 - [Summarize API](https://docs.cohere.com/reference/summarize-2): A Cohere API to generate a summary of the text extracted from the PDF
